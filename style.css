@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+ height: 100%;
+ min-height: 100%;
+ width: 1400px;
+ height: auto !important;
+    margin: 0 auto 0 auto;
+}
+
+/* меню сайта и логотип*/
+.logotip{
+    color: #18BD4F;
+
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+font-size: 38px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.tochka{
+    color: #200E32;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+font-size: 38px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.logo
+{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.menu{
+    margin-top: 40px;
+margin-left: 218px;
+display: flex;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu-item{
+    margin-right: 56px;
+    font-family: 'Inter', sans-serif;
+   
+}
+.menu-item:hover{
+    text-decoration: underline;
+}
+.menu-item a{
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+header{
+    display: flex;
+}
+.iconka{
+    margin-top: 40px;
+    margin-left: 186px;
+}
+
+/* начло сайта заголовок*/
+.zogolovok{
+    display: flex;
+ margin-left: 580px;
+    margin-top: 92px;
+
+}
+.zogoNachalo{
+
+    color: #333;
+    font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 53px; /* 110.417% */
+}
+.zogoTheEnd{
+    color: #18BD4F;
+    font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-style: italic;
+font-weight: 600;
+line-height: 53px;
+}
+
+/*навигация по карточкам*/
+
+.main-manu{
+  
+    margin-top: 44px;
+    margin-left: 119px;
+}
+.main-manu ul{
+    display: flex;
+    list-style: none;
+
+}
+.main-manu li{
+    margin-right: 11px;
+}
+
+
+
+/*карточки*/
+.cards{
+    margin-top: 40px;
+    margin-left: 120px;
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.one-card{
+    margin-top: 63px;
+    margin-right: 27px;
+    width: 280px;
+height: 370px;
+    border-radius: 8px;
+background: #F4F5FA;
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.save{
+    display: flex;
+}
+.save-text{
+    margin-top: 15px;
+    margin-left: 23px;
+}
+.skidka{
+margin-top: -20px;
+color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.serdechko{
+   
+    margin-top:15px ;
+    text-align: right;
+}
+.serdechko:hover{
+    color:red;
+}
+.serdechko-pod-save{
+    margin-top:15px ;
+    margin-left: 150px;
+}
+.zg-zana{
+    display: flex;
+}
+.zagolovok-carts{
+    margin-left: 21px;
+    color: #333;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 150% */
+}
+.zena{
+    margin-left: 15px;
+    color: #333;
+text-align: right;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
+}
+.dolors{
+    color: #333;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+}
+.opisanie{
+    width: 208.131px;
+    margin-left: 21px;
+    margin-top: 15px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+}
+.kypiti{
+    width: 126.792px;
+height: 30px;
+margin-left: 21px;
+margin-top: 15px;
+border-radius: 5px;
+background: #18BD4F;
+stroke: none;
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+text-transform: uppercase;
+border: none;
+}
+.kypiti:hover{
+background-color: #88c59d;
+color: #FFF;
+}
+
+.novinki
+{
+    display: flex;
+}
+.novinki-text{
+    margin-top: 15px;
+    margin-left: 23px;
+}
+.new{
+    margin-top: -23px;
+    margin-left: 4px;
+    color: #333;
+
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+/*подвал сайта*/
+
+
+.prisoedinaitesi{
+    width: 1000px;
+    height: 400px;
+margin-top: 102px;
+margin-left: 220px;
+border-radius: 35px;
+background: url(/img/bloc.png), lightgray 50% / cover no-repeat;
+   
+}
+.text-prisoedinaitesi{
+  
+    margin-top: 41px;
+margin-left: 170px;
+text-align: center;
+}
+.polych-save{
+    color: #FFF;
+    width: 561px;
+    margin-top: 41px;
+    margin-left: 20px;
+font-family: 'Inter', sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 53px;
+}
+.geen-save{
+    color: #18BD4F;
+    font-family: 'Inter', sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 53px;
+}
+.polych{
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 53px;
+}
+.ebnyrai-dizainer{
+    display: flex; 
+    margin-left: 5px;
+}
+.podpis-c-nizy{
+    margin-left: -160px;
+    margin-top: 40px;
+    color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+
+.inout-btn{
+    display: flex;
+    margin-top: 50px ;
+    margin-left: 250px;
+}
+.email{
+    width: 500px;
+height: 50px;
+border-radius: 31px;
+background: #FFF;
+
+border: none;
+color: rgba(51, 51, 51, 0.60);
+font-family: 'Inter', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.btn{
+    width: 100px;
+height: 40px;
+margin-top: 5px;
+margin-left: -110px;
+flex-shrink: 0;
+border-radius: 26px;
+background: #18BD4F;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #88c59d;
+color: #FFF;
+}
+
+/*АДАПТИВНАЯ ЧАСТЬ*/
+
+@media (max-width: 1400px){
+    .cards{
+        margin-top: 40px;
+        margin-left: 120px;
+        display: flex;
+        width: 1240px;
+       
+  
+    }
+}
+@media (max-width: 1110px){
+    body{
+        width: 1110px;
+    }
+    .logo{
+        width: 100%;
+margin-left: 30px;
+
+    }
+    .container{
+        
+        padding: 0;
+    }
+    .zogolovok{
+        margin-left: 190px;
+        }
+    .main-manu{
+        margin-left: 170px;
+    }
+    .cards{
+        margin-top: 40px;
+    margin-left:10px;
+    display:flexbox;
+    width: 600px;
+   
+  
+    }
+    .one-card{
+        margin-right: -12px;
+        margin-top: 12px;
+        
+    }
+    .prisoedinaitesi{
+        margin-left: 10px;
+        background: none;
+    }
+    .text-prisoedinaitesi{
+        margin-left: 10px;
+        color: black;
+        margin-top: 10px;
+    }
+    .polych-save{
+        color: #000;
+    }
+    .podpis-c-nizy{
+        color: #000;
+        width: 400px;
+        margin-left: 100px;
+    }
+    .email{
+        width: 500px;
+        height: 50px;
+        border-radius: 31px;
+        background: rgb(255, 255, 255);
+        margin-left: -200px;
+        border: 1px solid #000;
+    }
+}
+@media (max-width:500px) {
+    .logo{
+        width: 100%;
+margin-left: 30px;
+
+    }
+    header{
+        display:block;
+    }
+    .zogolovok{
+        margin-left: 150px;
+        }
+    .menu{
+        margin-left: 6px;
+    }
+    .main-manu{
+        margin-left: 130px;
+    }
+    .cards{
+        margin-top: 40px;
+    margin-left:140px;
+    display:block;
+    width: 60px;
+   
+  
+    }
+    
+}
